@@ -1,0 +1,4 @@
+# DeepLearning_FinalProject
+Image captioning using CNN, LSTM
+This project is based upon image captioning using CNN-LSTM deep learning model. CNNLSTM model is a more usable and efficient way which uses a hybrid mode that comes from CNN and LSTM. In case of image captioning this hybrid, model is used in two tire manners. The image captioning problem is formulated as a one-to-many prediction model sequence. For this purpose, the LSTM prediction model is used to understand the image.
+For our proposed model we have used a cross entropy loss function and in the final stage, BLEU scores are used to measure the performance which outputs the result. With this model, Bleu-score is utilized. We can determine whether n-gram will produce captions for the given data utilizing BLEU Score. The BLEU Score ranges from 0 to 1. A proposed translation of the text is compared with one or more equating to determine its BLEU score
